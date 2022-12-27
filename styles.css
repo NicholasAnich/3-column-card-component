@@ -1,6 +1,8 @@
 :root {
     /* Primary Colors */
-    --clr-primary-400: #e28625;
+    /* --clr-primary-400: #e28625; */
+    /* Changed primary-400 due to Accesibility color contrast issue */
+    --clr-primary-400: #5e3817;
     --clr-primary-600: #006971;
     --clr-primary-800: #004140;
 
@@ -29,7 +31,8 @@
 
     /* Other */
     --pad-btn: 0.8em, 2.1em;
-    --opacity-font: 0.75;
+    /* --opacity-font: 0.75; */
+    --opacity-font: 1;
 }
 
 *,
